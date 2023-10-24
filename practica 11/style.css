@@ -1,0 +1,16 @@
+.navbar {
+    background-color:#D1610A ;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: verdana, geneva, tahoma, sans-serif;
+}
+
+.img-fluid{
+    height: 10%;
+    width: 100%;
+}
