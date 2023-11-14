@@ -1,0 +1,138 @@
+/*Estilo navbar*/
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/*Estilo de la barra de nagevación*/
+
+.nav-wrapper{
+    background-color: #ff8a80;
+    padding: 25px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px black;
+}
+
+.dropdown-content li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-trigger:hover .dropdown-content{
+    display: block;
+}
+
+.titulo{
+    text-align: center;
+    color: lightseagreen;
+}
+
+/*////////////////////////////////////////ESTILO DE TABLA/////////////////////////////////////////////*/
+
+.container{
+    margin: 20px;
+    margin: auto;
+}
+
+thead.lime-text{
+    background-color: limegreen;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+tbody.green-text{
+    background-color: #ef9a9a;
+    color: black;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+table.hightlight{
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-shadow: 0 6px 16px black;
+    max-width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    line-height: 2.0;
+}
+
+table.centered{
+    margin: auto;
+    width: 100%;
+}
+
+/*///////////////////////////////////////ESTILO DE BOTONES////////////////////////////////////////////////////////*/
+
+.container.center{
+    text-align: center;
+    margin: 20px;
+    margin: auto;
+}
+
+button.btn{
+    background-color: rgb(183, 219, 51);
+    color: green;
+    padding: 12px 20px;
+    margin: 5px;
+    border: 2px solid #000;
+}
+
+a.btn{
+    background-color: #d81b60;
+    color: lightgreen;
+    margin: 5px;
+    border: 2px solid #000;
+}
+
+.materia-icons{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*////////////////////////////////////////////////ESTILO DE FOOTER///////////////////////////////////////////*/
+
+.page-footer{
+    background-color: #4527a0;
+    color: brown;
+    margin: auto;
+}
+.page-footer a {
+    color: black;
+}
+
+.page-footer a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.row{
+    margin-bottom: 1;
+}
+
+.footer-copyright{
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}
