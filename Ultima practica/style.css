@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(128, 208, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    font-size: 26px;
+}
+
+button {
+    background-color: yellow;
+    text-align: center;
+    height: 40px;
+    padding: 16px;
+}
+
